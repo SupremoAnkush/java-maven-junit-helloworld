@@ -52,12 +52,6 @@
       <version>${hamcrest.version}</version>
     </dependency>
     <dependency>
-     <groupId>org.apache.maven.plugins</groupId>
-      <artifactId>maven-failsafe-plugin</artifactId>
-      <version>3.0.0-M3</version>
-     <type>maven-plugin</type>
-   </dependency>
-    <dependency>
       <groupId>org.mockito</groupId>
       <artifactId>mockito-junit-jupiter</artifactId>
       <version>${mockito.version}</version>
@@ -90,10 +84,7 @@
       <plugin>
         <!-- Integration tests are run by failsafe. -->
         <!-- Classes under src/test/java called *IT are included automatically. -->
-        <!-- Integration tests are run during the verify phase. -->
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-failsafe-plugin</artifactId>
-        <version>2.22.0</version>
+        <!-- Integration tests are run during the verify phase. --
         <executions>
           <execution>
             <goals>
