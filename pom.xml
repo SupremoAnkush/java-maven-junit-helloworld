@@ -81,11 +81,6 @@
         <artifactId>maven-surefire-plugin</artifactId>
         <version>2.22.0</version>
       </plugin>
-      <plugin>
-        <!-- Integration tests are run by failsafe. -->
-        <!-- Classes under src/test/java called *IT are included automatically. -->
-        <!-- Integration tests are run during the verify phase. -->
-        <version>2.22.0</version>
         <executions>
           <execution>
             <goals>
