@@ -84,7 +84,8 @@
       <plugin>
         <!-- Integration tests are run by failsafe. -->
         <!-- Classes under src/test/java called *IT are included automatically. -->
-        <!-- Integration tests are run during the verify phase. --
+        <!-- Integration tests are run during the verify phase. -->
+        <version>2.22.0</version>
         <executions>
           <execution>
             <goals>
