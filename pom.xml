@@ -85,8 +85,8 @@
   </build>
          <distributionManagement>
     <repository>
-      <id>releases</id>
-      <url>http://localhost:8081/nexus/content/repositories/thirdparty/</url>
+      <id>devopstraining</id>
+      <url>http://http://3.14.251.87:8081/nexus/contect/repositories/devopstraining/</url>
     </repository>
     
   </distributionManagement>
