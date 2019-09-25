@@ -86,7 +86,7 @@
          <distributionManagement>
     <repository>
       <id>devopstraining</id>
-      <url>http://18.224.155.110:8081/nexus/contect/repositories/devopstraining/</url>
+      <url>http://18.224.155.110:8081/nexus/content/repositories/devopstraining/</url>
     </repository>
         
   </distributionManagement>
